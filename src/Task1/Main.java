@@ -10,8 +10,7 @@ public class Main {
         customers.add(new Customer("John","Hansen","80085"));
         customers.add(new Customer("Peter","Mattisen","SausageOligarch"));
 
-        //Below is to test if counter goes up when a Customer object is created.
-        //System.out.println(Customer.counter);
+
 
         //Prints to result of using our custom toString() method on our object "john"
         //Outdated.
@@ -20,6 +19,8 @@ public class Main {
         //Using our printCustomers method. It takes an ArrayList of type Customer.
         //Prints out all customers in our ArrayList
         printCustomers(customers);
+        //Below is to test if counter goes up when a Customer object is created.
+        System.out.println("Total customers: "+Customer.getCounter());
     }
     public static void printCustomers(ArrayList<Customer> customers){
 

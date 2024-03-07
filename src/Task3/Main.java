@@ -19,7 +19,7 @@ public class Main {
         //Simple sout for testing.
         System.out.println(countLampsInBuilding(building1));
         //Use function on our object "building1"
-        isNormal(building1);
+        System.out.println(isNormal(building1));
 
     }
     //A function that returns an int. Takes a Building object as argument.
@@ -47,4 +47,5 @@ public class Main {
             return false;
         }
     }
+
 }
